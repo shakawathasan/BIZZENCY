@@ -1,0 +1,912 @@
+/* common css start*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Abril Fatface',sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
+}
+ul{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+}
+.container{
+    width:1170px;
+    margin: auto;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+p{
+    font-family:'Open Sans', sans-serif; 
+    font-weight: 400;
+  }
+.align-iteam{
+  align-items: center;
+  }
+  /* common css end */
+  
+  /* header css start */
+  header{
+   background: #0f2f44;
+   padding: 20px 0px; 
+   color:white;
+  }
+  header .row{
+    justify-content: space-between;
+  }
+  header .wellcome, header .opening{
+  color: white;
+  font-size: 16px;
+  font-weight: 400;
+  font-family: 'Ubuntu', sans-serif;
+  padding: 19px 0;
+  }
+  /* header css end */
+  
+  /* navigation css start */
+  nav{
+  background-color: white;
+  }
+  nav .menu ul{
+    text-align: right;
+  }
+  nav .menu ul li {
+  display: inline-block;
+  
+  }
+  nav .logo{
+    width: 25%;
+  }
+  nav .menu{
+    width: 70%;
+  }
+  nav .menu ul li a{
+  font-size: 16px;
+  font-weight:500;
+  color:#000000;
+  padding: 40px 20px;
+  font-family:'Ubuntu', sans-serif;
+  display: block;
+  transition: .5s;
+  }
+  nav .menu ul li:hover a{
+    background: #fff9e6;
+    color: #ffc712;
+  }
+  nav .menu ul li span{
+    display: block;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    color: #888;
+    border-radius: 50%;
+    border: 1px solid black;
+    margin: 0px 10px;
+    cursor: pointer;
+  }
+  /* navigation css end */
+  
+  /* success css start */
+  #success{
+    background-image:url(../img/Bizzency\ bg.jpg);
+    background-position: center;
+    background-size: cover; 
+    padding: 140px 0px;
+  }
+  #success h1{
+    font-family:'Ubuntu', sans-serif; 
+    font-weight: 300;
+    font-size: 50px;
+    color: #0f2f44;
+    letter-spacing: 5px;
+  }
+  #success h1 strong{
+    font-family:'Abril Fatface';
+    font-size: 80px;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: #0f2f44;
+    display: block;
+  }
+  #success h3{
+    font-family:'Ubuntu'sans-serif;
+    font-size: 32px;
+    font-weight: 400;
+    color: #8484bf;
+    letter-spacing: 20px;
+    margin-top: 5px;
+  }
+  #success p{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400px;
+    font-size: 14px;
+    color: #444444;
+    margin: 20px 0px 33px;
+  }
+  #success a{
+    font-family:'Ubuntu'sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    color:#fff9e6;
+    background-color: #8484bf;
+    padding: 16px 20px;
+    border-radius: 10px;
+    display: inline-block;
+    transition: .6s;
+  }
+  #success a:hover{
+    background-color:#fff9e6;
+    color: #8484bf;
+  }
+  #success span{
+    display:inline-block;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    color:#8484bf;
+    border-radius: 50%;
+    border: 1px solid #000000;
+    margin: 0px 20px;
+    cursor: pointer;
+  }
+  /* success css end */
+  
+  /* about css start */
+  #about{
+    padding: 100px 0px;
+  }
+  #about .about-info{
+  color: #0f2f44;
+  width: 50%;
+  }
+  #about .about-info h5{
+  font-size: 17px;
+  font-family: 'Ubuntu'sans-serif;
+  font-weight:300;
+  }
+  #about .about-info h3{
+    font-size: 32px;
+    font-family:'Abril Fatface';
+    font-weight: 400;
+    margin-bottom: 31px;
+  }
+  #about .about-info p{
+    font-size: 16px;
+    font-family:'Open Sans', sans-serif;
+    font-weight: 400;
+    margin-bottom: 30px;
+  }
+  #about .about-info ul{
+    margin-left: 30px;
+  }
+  #about .about-info ul li{
+    font-size: 16px;
+    font-family:'Open Sans', sans-serif;
+    font-weight: 400;
+    padding: 15px 0px;
+  }
+  #about .about-info a{
+    font-size: 20px;
+    font-family:'Ubuntu'sans-serif;
+    font-weight:500px;
+    padding: 15px 19px;
+    margin-top: 34px;
+    color: #0f2f44;
+    background: #ffc712;
+    display: inline-block;
+    margin-right: 20px;
+    border-radius: 10px;
+    transition: .6s;
+  }
+  #about .about-info a:hover{
+    background-color:#0f2f44;
+    color:#ffc712;
+  }
+  #about .about-info a:last-child{
+    background: #fff;
+    color: #0f2f44;
+    border: 3px solid #ebebeb;
+  }
+  /* about css end */
+  
+
+/* our_skills css start */
+ #skills{
+  padding-bottom: 100px;
+ }
+ #skills .skills_img{
+    width: 60%;
+ }
+ #skills .skills_text{
+    width: 40%;
+    text-align: right;
+ }
+ #skills .skills_text h5{
+    color: #0f2f44;
+    font-family:'Ubuntu', sans-serif ;
+    font-size: 16px;
+    font-weight: 300;
+ }
+ #skills .skills_text h2{
+    color: #0f2f44;
+    font-family:'Abril Fatface',sans-serif;
+    font-size: 32px;
+    font-weight: 300;
+}
+#skills .skills_text p{
+  color: #0f2f44;
+  font-family:'Open Sans', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  padding: 28px 0px;
+}
+/* our_skills css end */
+
+/* service css start */
+#service{
+  background-color: #f5f5f5;
+  padding-bottom: 60px;
+}
+#service .service-info{
+  padding: 60px 0;
+}
+#service .service-info h6{
+  font-size: 14px;
+  font-family: 'Ubuntu',sans-serif;
+  font-weight: 300;
+  color: #0f2f44;
+  text-align: center;
+}
+#service .service-info h4{
+  font-size: 32px;
+  font-family:'Abril Fatface',sans-serif;
+  font-weight: 400;
+  color: #0f2f44;
+  text-align: center;   
+}
+#service .serviceitem{
+  justify-content: space-between;
+}
+#service .service_items{
+  width: 30%;
+  margin: 0 15px;
+  position: relative;
+}
+#service .service_items .overlay{
+  position: absolute;
+  background-color: #0f2f44;
+  border-radius: 10px;
+  inset: 0;
+  border-radius: 10px;
+  text-align: center;
+  padding: 30px 0;
+  transform: scaleY(0);
+  transition: .6s;
+  transform-origin: top;
+  opacity: 0;
+
+}
+#service .service_items .overlay p{
+  font-size: 20px;
+  font-family: 'Ubuntu';
+  font-weight: 500;
+  color: #fff;
+  padding: 20px 0 60px;
+}
+#service .service_items .overlay span{
+  background-color: #ffc712;
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  color: #222222;
+  border-radius: 50%;
+  bottom: -20px;
+  display: block;
+  position: absolute;
+  left: 45%;
+  opacity: 0;
+  transition: .6s;
+  transition-delay: .6s;
+}
+#service .service_items .overlay span:hover{
+  background-color: #fff;
+  box-shadow: 2px 2px 4px gray;
+}
+#service .service_items:hover .overlay{
+  opacity: 1;
+  transform: scaleY(1);
+}
+
+#service .service_items:hover .overlay span{
+  opacity: 1;
+}
+#service .service_items .imagg{
+  padding: 60px 20px;
+  background-color: #e9e9e9;
+  border: 1px solid #e9e9e9;
+  height: 100%;
+  width: 30%;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+#service .service_items .designs{
+  color: #0f2f44;
+  background-color: #eeeeee;
+  padding: 28px 20px;
+  text-align: left;
+  width: 70%;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+#service .service_items .designs h3{
+  margin-bottom: 20px;
+}
+/* service css end */
+
+ /* portfolio css start  */
+ #portfolio{
+  padding: 100px 0;
+  background-color: #fff;
+  margin-bottom: -100px;
+}
+#portfolio .heading{
+  text-align: center;
+  padding-bottom: 30px;
+}
+#portfolio h6, #portfolio h2{
+  text-align: center;
+  color: #0f2f44;
+}
+#portfolio h2{
+  font-size: 32px;
+  font-family: 'Abril Fatface' , sans-serif ;
+  font-weight: 400;
+}
+
+#portfolio h6{
+  font-size: 14px;
+  font-family: 'Ubuntu';
+  font-weight: 300;
+}
+#portfolio .portfolio-card{
+  padding: 0px 20px;
+  position: relative;
+}
+#portfolio .portfolio-card img{
+  width: 100%;
+  height: 100%;
+  display: block;
+  position: relative;
+}
+#portfolio .port-left-arrow{
+  top: 45%;
+
+  position:absolute;
+  color: #0f2f44;
+  background-color:#ffc712;
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  border: 1px solid #ffc712 ;
+  border-radius: 50%;
+  box-shadow:  0px 6px 11px -5px rgba(0,0,0,0.75);
+  cursor: pointer;
+  z-index: 99;
+}
+#portfolio .row {
+  justify-content: space-between;
+}
+#portfolio a{
+  text-align: center;
+  display: block;
+  margin: 60px 515px;
+  padding: 15px 20px;
+  font-family: 'Ubuntu';
+  font-weight: 500;
+  color: #0f2f44;
+  background-color: #ffc712;
+  font-size: 20px;
+  border-radius: 10px;
+  box-shadow: 2px 2px 3px gray;
+  transition: 0.5s;
+}
+#portfolio a:hover{
+  background-color: #0f2f44;
+  color: #ffc712;
+}
+#portfolio .portfolio_item{
+  width: 30%;
+  position: relative;
+}
+
+
+#portfolio .portfolio_item img{
+  width: 100%;
+  display: block;
+  height: 100%;
+  position: relative;
+}
+#portfolio .portfolio_item .overlay span{
+  position: absolute;
+  display: inline-block;
+  top: -160px;
+  left: -20px;
+  color: #0f2f44;
+  background-color: #fff;
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  border-radius: 50%;
+  text-align: center;
+  cursor: pointer;
+  box-shadow: 0px 6px 11px -5px rgba(0,0,0,0.75);
+}
+#portfolio .portfolio_item .overlay span:last-child{
+  top: -160px;
+  left: 330px;
+}
+
+#portfolio .portfolio_item .overlay span:hover{
+  background-color: #ffc712;
+  color:#0f2f44;
+}
+
+#portfolio .portfolio_item  .overlay{
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color:white;
+  text-align: center;
+  padding: 30px 0;
+  font-weight: 500;
+  font-size: 20px;
+  border-radius: 0 0 5px 5px;
+  box-shadow: 0px 6px 11px -5px rgba(0,0,0,0.75);
+  transform: scaleY(0);
+  transition: .7s;
+  transform-origin: bottom;
+  opacity: 0;
+}
+
+#portfolio .portfolio_item:hover .overlay{
+  transform: scaleY(1);
+  opacity: 1;    
+} */
+
+/* portfolio css end 
+
+
+/* tetsimoni css start */
+#testimonial{
+  background-color: #f5f5f5;
+  padding: 63px 0;
+}
+
+#testimonial .heading{
+  text-align: center;
+}
+#testimonial .heading h6{
+  font-size: 14px;
+  font-family: 'Ubuntu';
+  font-weight: 300;
+}
+#testimonial .heading h2{
+  font-size: 32px;
+  font-family: 'Abril Fatface' sans-serif;
+  font-weight: 400;
+}
+
+
+#testimonial .testimonial-details{
+  position: relative;
+}
+
+#testimonial .testimonial-details .sanfransisco{
+  width: 50%;
+  margin: 60px 0;
+}
+
+#testimonial .testimonial-details .ranefransisco{
+  width: 50%;
+  margin: 60px 0;
+}
+
+#testimonial .testimonial-details .sanfransisco .testimonial-img{
+  width: 40%;
+}
+#testimonial .testimonial-details .sanfransisco .testimonial-img img{
+  height: 100%;
+}
+#testimonial .testimonial-details .sanfransisco .details{
+  width: 60%;
+  background-color: #e9e9e9;
+  text-align: left;
+  padding: 27px 20px;
+  margin-left: -15px;
+}
+
+#testimonial .testimonial-details .sanfransisco .details h4, 
+#testimonial .testimonial-details .ranefransisco .details h4{
+  font-size: 20px;
+  font-family: 'Ubuntu';
+  font-weight: 500;
+  margin-top: 30px;
+}
+
+#testimonial .testimonial-details .sanfransisco .details h5, 
+#testimonial .testimonial-details .ranefransisco .details h5{
+  font-size: 16px;
+  font-family: 'Ubuntu';
+  font-weight: 300;
+}
+
+#testimonial .testimonial-details .sanfransisco .details p, 
+#testimonial .testimonial-details .ranefransisco .details p{
+  width: 310px;
+}
+#testimonial .testimonial-details .ranefransisco .testimonial-img{
+  width: 40%;
+  margin-left: 15px;
+}
+#testimonial .testimonial-details .ranefransisco .testimonial-img img{
+  height: 100%;
+}
+#testimonial .testimonial-details .ranefransisco .details{
+  width: 60%;
+  background-color: #e9e9e9;
+  text-align: left;
+  padding: 27px 20px;
+  margin-left: -20px;
+  margin-right: -10px;
+}
+
+
+#testimonial .testimonial-details .overlay span{
+  display: block;
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  color: #888;
+  border-radius: 50%;
+  cursor: pointer;
+  background-color: #ffc712;
+  position: absolute;
+  right: 1150px;
+  bottom: 150px;
+  box-shadow: 1px 2px 2px gray;
+  transition: 0.4s;
+}
+#testimonial .testimonial-details .overlay span:hover{
+  background-color: #fff;
+  color: #ffc712;
+}
+#testimonial .testimonial-details .overlay span:last-child{
+  right: -10px;
+}
+/* tetsimoni css end */
+
+
+/* blog css start */
+#blog{
+    padding: 100px 0;
+}
+#blog .blogs-heading{
+    text-align: center;
+}
+#blog .blogs-heading h6{
+    font-size: 14px;
+    font-family: 'Ubuntu';
+    font-weight: 300;
+}
+#blog .blogs-heading h3{
+    font-size: 32px;
+    font-family: 'Abril Fatface';
+    font-weight: 400;
+}
+#blog .blogs-details .row{
+    justify-content: space-between;
+}
+#blog .blogs-details .blog-info{
+    margin-top: 60px;
+    padding: 19px;
+    background-color: #f5f5f5;
+    border-radius: 10px;    
+    position: relative;
+    transition: .7s;
+}
+
+#blog .blogs-details .blog-info .blog-info-img img{
+    width: 100%;
+}
+
+#blog .blogs-details .blog-info .blog-info-text p{
+    font-size: 14px;
+    font-family: 'Ubuntu';
+    font-weight: 400;
+    margin-top: 30px;
+}
+
+#blog .blogs-details .blog-info .blog-info-text h3{
+    font-size: 20px;
+    font-family: 'Ubuntu';
+    font-weight: 500;
+    color: #222222;
+    width: 310px;
+    margin-top: 20px;
+}
+
+#blog .blogs-details .blog-info .blog-info-text a{
+    font-size: 16px;
+    font-family: 'Ubuntu';
+    font-weight: 400;
+    display: inline-block;
+    margin-top: 30px;
+    color: #000000;
+    
+}
+#blog .blogs-details .blog-info .blog-info-text a i{
+    margin-left: 10px;
+}
+
+#blog .blogs-details .overlay, 
+ #blog .blogs-details .overlay2, 
+#blog .blogs-details .overlay3{
+    position: absolute;
+    top: 50%;
+    right: 330px;
+    visibility: hidden;
+    opacity: 0;
+}
+#blog .blogs-details:hover .overlay{
+    visibility: visible;
+    opacity: 1;
+}
+#blog .blogs-details:hover .overlay2{
+    visibility: visible;
+    opacity: 1;
+}
+#blog .blogs-details:hover .overlay3{
+    visibility: visible;
+    opacity: 1;
+}
+
+#blog .blogs-details .overlay span,
+ #blog .blogs-details .overlay2 span,
+#blog .blogs-details .overlay3 span{
+    display: inline-block;
+    color: #0f2f44;
+    background-color: #ffc712;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    border-radius: 50%;
+    text-align: center;
+    cursor: pointer;
+    box-shadow: 2px 2px 3px gray;
+    
+}
+
+#blog .blogs-details .overlay:last-child, 
+#blog .blogs-details .overlay2:last-child,
+#blog .blogs-details .overlay3:last-child{
+    right: -20px;
+}
+
+#blog .blogs-details span:hover{
+    background-color: #fff;
+}
+#blog .blogs-details .blog-info:hover{
+    background-color: #0f2f44;
+}
+
+#blog .blogs-details .blog-info:hover p{
+    color: #fff;
+}
+#blog .blogs-details .blog-info:hover h3{
+    color: #fff;
+}
+#blog .blogs-details .blog-info:hover a{
+    color: #fff;
+}
+#blog .blogs-details .blog-info:hover a i{
+    color: #fff;
+}
+
+#blog .button a{
+    text-align: center;
+    margin: 58px 515px 0;
+    display: block;
+    padding: 16px 18px;
+    color: #0f2f44;
+    background-color: #ffc712;
+    font-size: 20px;
+    font-family: 'Ubuntu';
+    font-weight: 500;
+    border-radius: 10px;
+    box-shadow: 2px 2px 3px gray;
+    transition: .7s;
+}
+
+#blog .button a:hover{
+    background-color: #0f2f44;
+    color: #ffc712;
+}
+/* blog css end */
+
+/* foot css start  */
+
+#foot{
+  background-color: #f5f5f5;
+  box-shadow: 0px 0px 70px -20px gray;
+}
+
+#foot .back-to-top a i{
+  background:#ffc712 ;
+  height: 60px;
+  width: 60px;
+  border-radius: 50%;
+  line-height: 60px;
+  text-align: center;
+  margin-top: -25px;
+  margin-left: 570px;
+  font-size: 20px;
+  color: #ffffff;
+  box-shadow: 0px 1px 2px gray;
+  transition: 0.5s;
+}
+#foot .back-to-top a i:hover{
+  background-color: #0f2f44;
+  color: #ffc712;
+}
+
+#foot .foot-left{
+  width: 22%;
+  margin-right: 33px;
+  padding: 95px 0 55px;
+}
+
+#foot .foot-left p{
+  font-size: 14px;
+  font-family: 'Open Sans';
+  font-weight: 400;
+  margin: 30px 0;
+  width: 266px;
+}
+
+#foot .foot-left .foot-icon i{
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: 1px solid #0f2f44;
+  text-align: center;
+  line-height: 40px;
+  margin-right: 8px;
+  font-size: 20px;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+#foot .foot-left .foot-icon i:hover{
+  background-color: #0f2f44;
+  color: #fff;
+}
+
+#foot .foot-contact{
+  width: 24%;
+  margin-right: 33px;
+  padding: 95px 0 55px;
+  float: left;
+}
+#foot .foot-contact h3{
+  font-size: 20px;
+  font-family: 'Ubuntu';
+  font-weight: 500;
+  margin-bottom: 40px;
+}
+#foot .foot-contact .icon{
+  float: left;
+  font-size: 25px;
+  margin-bottom: 15px;
+}
+#foot .foot-contact .icon i{
+  margin-top: 10px;
+}
+#foot .foot-contact .text{
+  float: left;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  margin-bottom: 20px;
+}
+
+#foot .foot-contact .text p{
+  width: 230px;
+  margin-left: 20px;
+}
+#foot .foot-links{
+  width: 17%;
+  float: left;
+  padding: 95px 0 55px;
+}
+#foot .foot-links h3{
+  font-size: 20px;
+  font-family: 'Ubuntu';
+  font-weight: 500;
+  margin-bottom: 40px;
+}
+#foot .foot-links li{
+  font-size: 14px;
+  font-family: 'Open Sans';
+  font-weight: 400;
+  margin-bottom: 16px;
+  transition: 0.5s;
+}
+
+#foot .foot-links li a{
+  color: #222222;
+  transition: 0.5s;
+}
+#foot .foot-links li:hover{
+  margin-left: 18px;
+}
+#foot .foot-links li a:hover{
+  color: #ffc712;
+}
+
+#foot .foot-plickr{
+  width: 30%;
+  padding: 95px 0 55px;
+  float: left;
+  margin-bottom: 30px;
+}
+#foot .foot-plickr h3{
+  margin-bottom: 40px;
+}
+
+#foot .foot-plickr img{
+  padding: 1px;
+}
+
+/* foot css ends  */
+
+
+/* 
+<!-- footer css start  --> */
+
+
+footer{
+  text-align: center;
+  padding: 20px 0 18px;
+  background-color: #fdfdfd;
+}
+footer p{
+  font-size: 14px;
+  font-family: 'Open Sans';
+  font-weight: 400;
+}
+footer a{
+  color: #ffc712;
+  margin-left: 5px;
+  transition: 0.7s;
+}
+footer span{
+  margin: 0px 13px;
+}
+
+/* <!-- footer css end  --> */
+
+
+
